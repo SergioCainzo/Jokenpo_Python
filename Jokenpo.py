@@ -55,39 +55,48 @@ while True:
         op = 1
         # Pedra
         if pc == 0:
+            pula();
             print(f'Você escolheu: {lista_jokenpo[op]}')
             print(f'PC escolheu: {lista_jokenpo[pc]}')
             print('Você ganhou!')
+            pula();
         # Papel
         if pc == 1:
+            pula();
             print(f'Você escolheu: {lista_jokenpo[op]}')
             print(f'PC escolheu: {lista_jokenpo[pc]}')
             print('Deu empate!')
+            pula();
 
         # Tesoura
         if pc == 2:
+            pula();
             print(f'Você escolheu: {lista_jokenpo[op]}')
             print(f'PC escolheu: {lista_jokenpo[pc]}')
             print('PC ganhou!')
+            pula();
 
     #Tesoura
     elif op == 2:
         
         if pc == 0:
-            
+            pula();
             print(f'Você escolheu: {lista_jokenpo[op]}')
             print(f'PC escolheu: {lista_jokenpo[pc]}')
             print('PC ganhou!')
+            pula();
         # Papel
         if pc == 1:
-            
+            pula();
             print(f'Você escolheu: {lista_jokenpo[op]}')
             print(f'PC escolheu: {lista_jokenpo[pc]}')
             print('Você ganhou!')
+            pula();
 
         # Tesoura
         if pc == 2:
-            
+            pula();
             print(f'Você escolheu: {lista_jokenpo[op]}')
             print(f'PC escolheu: {lista_jokenpo[pc]}')
             print('Deu empate!')
+            pula();
